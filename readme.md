@@ -20,13 +20,11 @@
 -   PHP <= 7.1.3
 -   Composer Version 2 
 ## Installation Steps 
-
-1.  <code> composer create-project rahulvijayam/ecommerce </code>
-2. Create database for  your project with the name as <code>gainaloe</code>
-3. Now Run <code>php artisan migrate</code> command for creating all the tables 
-4. Add your email credentials in <code>.env</code> file
-5. Add PayuMoney <code>merchant key and salt</code> on <code> config/indipay.php</code> file at line number 30 and 31
-6. Start yor project using <code>php artisan serve</code>
+1. Create database for  your project with the name as <code>gainaloe</code>
+2. Now Run <code>php artisan migrate</code> command for creating all the tables 
+3. Add your email credentials in <code>.env</code> file
+4. Add PayuMoney <code>merchant key and salt</code> on <code> config/indipay.php</code> file at line number 30 and 31
+5. Start yor project using <code>php artisan serve</code>
 
 ## Generate Sample Data ( Optional)
 1. Remove tables(products, users) from the  database.
