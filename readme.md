@@ -26,11 +26,6 @@
 4. Add PayuMoney <code>merchant key and salt</code> on <code> config/indipay.php</code> file at line number 30 and 31
 5. Start yor project using <code>php artisan serve</code>
 
-## Generate Sample Data ( Optional)
-1. Remove tables(products, users) from the  database.
-2. Run two files present in this link https://github.com/RahulVijayam/ecommerce/tree/master/public/sql on your database
-3. Finished, Now Check it in your browser using http://127.0.0.1:8000
-
 ### Dashboard Details
 - Admin : http://127.0.0.1:8000/admin-dash
     -   Login Id : rahulvijayanagaram@gmail.com
